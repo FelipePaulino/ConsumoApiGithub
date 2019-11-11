@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"$aaa: blue;\r\nbody{\r\n background: $aaa;\r\n}\r\n\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ";AACA,AAAA,IAAI,CAAA;EACH,UAAU,EAFL,IAAI,GAGT"
+}

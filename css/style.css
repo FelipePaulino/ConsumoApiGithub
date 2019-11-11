@@ -1,0 +1,52 @@
+body {
+  font-family: Arial;
+  background: #f8f9fa;
+}
+
+header {
+  background: #343a40;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+p {
+  font-weight: bold;
+}
+
+button {
+  border: 0;
+  border-radius: 0.25rem;
+}
+
+#input-pesquisa {
+  -webkit-box-shadow: 0px 0px 12px 0px #b5b1b5;
+  -moz-box-shadow: 0px 0px 12px 0px #b5b1b5;
+  box-shadow: 0px 0px 12px 0px #b5b1b5;
+}
+
+.foto-perfil {
+  width: 100px;
+  height: auto;
+}
+
+.info-pesquisa {
+  border-bottom: 0;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.titulos {
+  background: #ccc;
+  color: #fff;
+  font-weight: bold;
+}
+
+#card-repositorios h3 {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

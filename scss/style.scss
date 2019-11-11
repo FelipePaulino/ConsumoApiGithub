@@ -1,0 +1,53 @@
+$cor_primaria: #fff;
+$cor_fundo: #f8f9fa;
+$cor_fundo_header: #343a40;
+
+@mixin texto_sombra {
+	text-shadow: 0.1em 0.1em 0.2em black;
+}
+@mixin box_sombra {
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(181,177,181,1);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(181,177,181,1);
+	box-shadow: 0px 0px 12px 0px rgba(181,177,181,1);
+}
+
+body{
+	font-family: Arial;
+	background: $cor_fundo;
+}
+header{
+ 	background: $cor_fundo_header;
+ 	color: $cor_primaria;
+ 	font-size: 1.2rem;
+ 	font-weight: bold;
+ 	@include texto_sombra;
+}
+p{
+	font-weight: bold;
+}
+button{
+	border:0;
+	border-radius: .25rem;
+}
+#input-pesquisa{
+	@include box_sombra;
+}
+.foto-perfil{
+	width: 100px;
+	height: auto;
+}
+.info-pesquisa{
+	border-bottom:0;
+}
+.border-bottom{
+	border-bottom: 1px solid #dee2e6;
+}
+.titulos{
+	background: #ccc;
+	color: $cor_primaria;
+	font-weight: bold;
+}
+#card-repositorios h3{
+	font-weight: bold;
+} 
+
